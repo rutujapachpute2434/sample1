@@ -4,7 +4,7 @@ class fact{
     int fact=1;
     System.out.println("Enter the number:");
     int no=sc.nextInt();
-    for(int i=1;i<=number;i++){
+    for(int i=1;i<=no;i++){
       fact=fact*i;
     }
     System.out.println("factorial of "+no+"is" +fact);
