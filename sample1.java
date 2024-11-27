@@ -1,6 +1,6 @@
 class fact{
   public static void main (String args[]){
-    Scanner sc=new Scanner(System.in);
+    scanner sc=new scanner(System.in);
     int fact=1;
     System.out.println("Enter the number:");
     int no=sc.nextInt();
